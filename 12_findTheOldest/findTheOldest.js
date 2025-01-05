@@ -1,3 +1,4 @@
+//my solution
 // const findTheOldest = function(people) {
 //     let oldest = 0;
 //     let maxAge = 1;
@@ -20,6 +21,9 @@
 //       });
 //       return people[ansIdx];
 // };
+
+
+//better solution
 const findTheOldest = function(people) {
     let currentYear = new Date().getFullYear(); // Get the current year dynamically
     return people.reduce((oldest, person) => {
